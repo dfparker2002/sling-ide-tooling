@@ -20,7 +20,5 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: remote-bash
-      uses: shinhwagk/remote-bash@0.0.1
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn clean package -f pom.xml
