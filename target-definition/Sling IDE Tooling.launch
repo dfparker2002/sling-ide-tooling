@@ -36,8 +36,8 @@
 <stringAttribute key="templateConfig" value="${target_home}/configuration/config.ini"/>
 <booleanAttribute key="tracing" value="false"/>
 <mapAttribute key="tracingOptions">
-<mapEntry key="org.apache.sling.ide.eclipse-core/debug" value="true"/>
-<mapEntry key="org.apache.sling.ide.impl-resource/debug" value="true"/>
+<!-- mapEntry key="org.apache.sling.ide.eclipse-core/debug" value="true"/-->
+<!-- mapEntry key="org.apache.sling.ide.impl-resource/debug" value="true"/ -->
 <mapEntry key="org.eclipse.core.contenttype/debug" value="false"/>
 <mapEntry key="org.eclipse.core.expressions/debug/TypeExtensionManager" value="false"/>
 <mapEntry key="org.eclipse.core.expressions/tracePropertyResolving" value="false"/>

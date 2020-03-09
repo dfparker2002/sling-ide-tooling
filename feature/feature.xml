@@ -225,19 +225,19 @@
    limitations under the License.
    </license>
 
-   <plugin
+   <!-- plugin
          id="org.apache.sling.ide.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
+         unpack="false"/ -->
 
-   <plugin
+   <!-- plugin
          id="org.apache.sling.ide.eclipse-core"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
+         unpack="false"/ -->
 
    <plugin
          id="org.apache.sling.ide.eclipse-ui"
@@ -246,19 +246,19 @@
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
+   <!-- plugin
          id="org.apache.sling.ide.impl-vlt"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
+         unpack="false"/ -->
 
-   <plugin
+   <!-- plugin
          id="org.apache.sling.ide.vlt-wrapper"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
+         unpack="false"/ -->
 
    <plugin
          id="org.apache.commons.io"
@@ -274,12 +274,12 @@
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
+   <!-- plugin
          id="org.apache.commons.httpclient"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
+         unpack="false"/ -->
 
    <plugin
          id="org.apache.commons.logging"

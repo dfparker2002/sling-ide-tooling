@@ -38,27 +38,17 @@
 
     <modules>
         <module>target-definition</module>
-        <module>artifacts</module>
-
-<!--
         <module>api</module>
         <module>api-test</module>
-
+        <module>artifacts</module>
         <module>impl-resource</module>
         <module>impl-resource-test</module>
         <module>vlt-wrapper</module>
         <module>impl-vlt</module>
         <module>impl-vlt-test</module>
-
-        <module>vlt-wrapper</module>
-        <module>impl-vlt</module>
-
         <module>eclipse-core</module>
--->
-
         <module>eclipse-ui</module>
         <module>feature</module>
-<!--
         <module>eclipse-m2e-core</module>
         <module>eclipse-m2e-ui</module>
         <module>eclipse-m2e-test</module>
@@ -67,7 +57,6 @@
         <module>eclipse-sightly-ui</module>
         <module>sightly-feature</module>
         <module>p2update</module>
--->
     </modules>
 
     <build>
@@ -113,7 +102,6 @@
                     </execution>
                 </executions>
             </plugin>
-<!-- rat here -->
         </plugins>
         <pluginManagement>
             <plugins>
@@ -122,13 +110,14 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.1</version>
                     <configuration>
-                        <source>1.8</source>
-                        <target>1.8</target>
+                        <source>1.7</source>
+                        <target>1.7</target>
                     </configuration>
                 </plugin>
                 <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself. -->
                 <!--
                     We embed some bundles that are not available on p2 update sites. To make the build seamless, we copy them early in the process.
+                -->
                 <plugin>
                     <groupId>org.eclipse.m2e</groupId>
                     <artifactId>lifecycle-mapping</artifactId>
@@ -159,7 +148,6 @@
                         </lifecycleMappingMetadata>
                     </configuration>
                 </plugin>
-                -->
             </plugins>
         </pluginManagement>
     </build>
@@ -237,7 +225,7 @@
                 </plugins>
             </build>
         </profile>
-<!--         <profile>
+        <profile>
             <id>eclipse-test</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -246,6 +234,5 @@
                 <module>eclipse-test</module>
             </modules>
         </profile>
--->
     </profiles>
 </project>

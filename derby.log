@@ -1,0 +1,30 @@
+----------------------------------------------------------------
+2020-03-06 08:50:16.841 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-0170-af09-addd-00003ab9e2b0
+on database directory D:\jboss-workspace\sling-ide-tooling\eclipse-test\target\sling\_\jackrabbit\version\db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2020-03-06 08:50:32.579 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 9a4840c2-0170-af09-addd-00003ab9e2b0
+on database directory D:\jboss-workspace\sling-ide-tooling\eclipse-test\target\sling\_\jackrabbit\workspaces\default\db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2020-03-06 08:50:46.002 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 247b4177-0170-af09-addd-00003ab9e2b0
+on database directory D:\jboss-workspace\sling-ide-tooling\eclipse-test\target\sling\_\jackrabbit\workspaces\security\db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2020-03-06 08:53:11.478 GMT:
+Shutting down instance 9a4840c2-0170-af09-addd-00003ab9e2b0
+----------------------------------------------------------------
+
+2020-03-06 08:53:14.070 GMT:
+Shutting down instance 247b4177-0170-af09-addd-00003ab9e2b0
+----------------------------------------------------------------
+
+2020-03-06 08:53:16.509 GMT:
+Shutting down instance a816c00e-0170-af09-addd-00003ab9e2b0
+----------------------------------------------------------------
